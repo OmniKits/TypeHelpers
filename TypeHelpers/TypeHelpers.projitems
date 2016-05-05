@@ -9,5 +9,10 @@
     <Import_RootNamespace>TypeHelpers</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)LazyPool.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)TypeMutability.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Properties\" />
   </ItemGroup>
 </Project>
