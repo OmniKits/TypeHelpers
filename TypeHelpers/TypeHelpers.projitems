@@ -9,5 +9,9 @@
     <Import_RootNamespace>TypeHelpers</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)TypeHelpers.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Properties\" />
   </ItemGroup>
 </Project>

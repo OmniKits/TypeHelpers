@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/10/nuspec.xsd">
+    <metadata>
+        <id>TypeHelpers</id>
+        <version>0.0-alphavirus</version>
+        <authors>Licshee</authors>
+        <requireLicenseAcceptance>false</requireLicenseAcceptance>
+        <description>-</description>
+    </metadata>
+    <files>
+        <file src="Release\NET40\TypeHelpers.dll" target="lib\net40\TypeHelpers.dll" />
+        <file src="Release\NET45\TypeHelpers.dll" target="lib\net45\TypeHelpers.dll" />
+        <file src="Release\NET40+SL5+WP8\TypeHelpers.dll" target="lib\portable-net40+sl5+wp8\TypeHelpers.dll" />
+        <file src="Release\NET40+SL5+WP8+WIN+WPA\TypeHelpers.dll" target="lib\portable-net40+sl5+wp8+win+wpa\TypeHelpers.dll" />
+        <file src="Release\NET45+WP8+WIN+WPA\TypeHelpers.dll" target="lib\portable-net45+wp8+win+wpa\TypeHelpers.dll" />
+        <file src="Release\SL5\TypeHelpers.dll" target="lib\sl5\TypeHelpers.dll" />
+        <file src="Release\WP8\TypeHelpers.dll" target="lib\wp8\TypeHelpers.dll" />
+    </files>
+</package>
